@@ -55,10 +55,10 @@ body {
 
 /* =========HW-7========  */
 
-@media (max-width: 1440px) {
-  body {
-    /* width: 1158px; */
-  }
+@media (max-width: 1439px) {
+  /* body {
+   width: 1158px;
+  } */
   .section-thre-flex {
     display: none;
   }
@@ -68,9 +68,14 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  body {
-    /* width: 428px; */
+@media (max-width: 767px) {
+  /* body {
+     width: 428px; 
+  }*/
+
+  .ul-header,
+  .addr-one {
+    display: none;
   }
 }
 
