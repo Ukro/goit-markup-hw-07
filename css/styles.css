@@ -57,7 +57,7 @@ body {
 
 @media (max-width: 1440px) {
   body {
-    width: 1158px;
+    /* width: 1158px; */
   }
   .section-thre-flex {
     display: none;
@@ -70,7 +70,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    width: 428px;
+    /* width: 428px; */
   }
 }
 
