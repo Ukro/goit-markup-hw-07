@@ -72,8 +72,11 @@ body {
 
 @media (min-width: 768px) 
 {
- .container-plus{
-    display: none;}
+ .container-plus
+  {
+    display: none;
+  }
+  
 }
 
 
