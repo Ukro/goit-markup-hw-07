@@ -66,10 +66,16 @@ body {
   .section-two-icon {
     display: none;
     
-    .container-plus{
-    display: none;}
+   
   }
 }
+
+@media (min-width: 768px) 
+{
+ .container-plus{
+    display: none;}
+}
+
 
 @media (max-width: 767px) {
   /* body {
