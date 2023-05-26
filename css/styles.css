@@ -65,6 +65,9 @@ body {
 
   .section-two-icon {
     display: none;
+    
+    .menu-toggle-plus{
+    display: none;}
   }
 }
 
