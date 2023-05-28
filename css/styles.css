@@ -1293,6 +1293,14 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .section-four-ul-flex {
     flex-wrap: wrap;
   }
+
+  .customers-ul-li {
+    width: auto;
+  }
+
+  .customers-ul {
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 1440px) {
