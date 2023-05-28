@@ -1270,7 +1270,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     }
   }
   .container {
-    width: none;
+    width: auto;
   }
 }
 
