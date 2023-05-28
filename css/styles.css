@@ -1275,6 +1275,13 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     width: auto;
   }
 
+  .section-two-ul-flex {
+    flex-wrap: wrap;
+  }
+  .section-two-li-flex {
+    width: auto;
+  }
+
   .section-thre-li-flex {
     width: auto;
   }
