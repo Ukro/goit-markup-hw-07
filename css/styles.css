@@ -1291,8 +1291,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   .section-four-ul-flex {
-    flex-wrap: wrap;
-    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
   }
 
   .customers-ul-li {
@@ -1360,6 +1361,16 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .footer-form-input {
     margin-bottom: 16px;
+  }
+
+  .container {
+    /* width: 428px; */
+    margin: 0px auto;
+    padding: 0px 16px;
+  }
+
+  .customers-ul-li {
+    align-items: flex-start;
   }
 }
 
