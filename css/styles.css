@@ -1352,8 +1352,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   .footer-a-flex {
-    margin-right: auto;
-    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .footer-form-input {
