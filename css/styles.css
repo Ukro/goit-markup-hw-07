@@ -1312,6 +1312,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .footer-div-flex {
     flex-direction: column;
   }
+
+  .form-subscribe-footer {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1440px) {
