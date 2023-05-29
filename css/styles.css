@@ -1292,6 +1292,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .section-four-ul-flex {
     flex-wrap: wrap;
+    /* flex-direction: column; */
   }
 
   .customers-ul-li {
@@ -1308,6 +1309,8 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .heder-sectione-one {
     text-align: center;
+    font-size: 36px;
+    line-height: 40px;
   }
   .footer-div-flex {
     flex-direction: column;
@@ -1319,6 +1322,42 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .strategy-one {
     font-weight: 700;
+  }
+
+  .footer-div-flex {
+    align-items: center;
+  }
+  .footer-p-social-media {
+    text-align: center;
+  }
+
+  .footer-div-logo-two {
+    margin-right: 0px;
+    margin-bottom: 72px;
+  }
+
+  .form-subscribe-footer-label {
+    margin-right: 0px;
+  }
+
+  .footer-div-logo {
+    margin-right: 0px;
+    margin-bottom: 72px;
+  }
+
+  .webstudio-one {
+    margin-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-a-flex {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-form-input {
+    margin-bottom: 16px;
   }
 }
 
