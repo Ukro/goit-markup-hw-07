@@ -1301,6 +1301,17 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .customers-ul {
     flex-wrap: wrap;
   }
+
+  .strategy-two {
+    text-align: center;
+  }
+
+  .heder-sectione-one {
+    text-align: center;
+  }
+  .footer-div-flex {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1440px) {
