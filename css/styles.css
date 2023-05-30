@@ -391,6 +391,34 @@ button {
   list-style-type: none;
 }
 
+.customers-ul-li {
+  /* ширина елемента */
+  width: calc((100% - 120px) / 6);
+  /* висота елемента */
+  height: 88px;
+}
+
+.customers-ul-li-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.customers-ul-li-a:hover,
+.customers-ul-li-a:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.customers-svg {
+  fill: currentColor;
+}
 /* mobila!!!! */
 @media (max-width: 767px) {
   /* .container {
@@ -675,35 +703,10 @@ button {
     gap: 24px;
   }
 
-  .customers-ul-li {
-    /* ширина елемента */
-    width: calc((100% - 120px) / 6);
-    /* висота елемента */
-    height: 88px;
-  }
-
-  .customers-ul-li-a {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #8e8f99;
-
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
   .customers-ul-li-a:hover,
   .customers-ul-li-a:focus {
     border-color: #404bbf;
     color: #404bbf;
-  }
-
-  .customers-svg {
-    fill: currentColor;
   }
 
   .footer-div-flex {
@@ -782,19 +785,6 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /*.button-sectione-one {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
-
-  /*.img-social-network {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
-
-  /*.customers-ul-li-a {
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
-
   .modal-win {
     position: fixed;
     top: 0;
@@ -804,9 +794,6 @@ button {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* padding: 72px 24px 24px 24px; */
-    /*  */
-    /*  */
   }
 
   .is-hidden {
@@ -865,10 +852,6 @@ button {
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
-  /*.list-styles {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
 
   .list-styles:hover p,
   .list-styles:focus p {
@@ -1042,36 +1025,6 @@ button {
     color: var(--color99);
   }
 
-  /*  
-.modal-form-check-desc::before {
-  display: block;
-  content: '';
-  width: 18px;
-  height: 18px;
-  border: 1px solid var(--text-color);
-  cursor: pointer;
-  border-radius: 4px;
-  margin-right: 10px;
-}
-
-.modal-form-check:checked + .modal-form-check-desc::before {
-  /* display: block; */
-  /* box-shadow: 0 0 0 4px rgb(255, 255, 255); */
-  /* fill: 'blue'; */
-  /* box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
-  /* background-image: url('/images/check.svg'); */
-  /* fill: var(--hover-color); */
-  /* -webkit-mask-image: url('/images/check.svg'); */
-  /* mask-image: url('/images/check.svg'); */
-  /* background-color: #4d5ae5; */
-  /* background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.modal-form-check:focus + .modal-form-check-desc::before {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
-} */
-
   .modal-form-submit {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -1142,11 +1095,6 @@ button {
     background-color: var(--hover-color);
   }
 
-  /*  
-.svg-transform {
-  transform: translateY(20%);
-}*/
-
   .form-subscribe-footer {
     display: flex;
     /* gap: 24px; */
@@ -1163,7 +1111,6 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
 
     display: flex;
     align-items: center;
@@ -1227,12 +1174,6 @@ button {
     border: none;
     border-color: var(--hover-color);
   }
-}
-
-@media (max-width: 1439px) {
-  /* .container { 
-    width: 1158px;
-  }*/
 }
 
 /*  */
