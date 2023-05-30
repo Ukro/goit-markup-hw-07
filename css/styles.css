@@ -587,11 +587,18 @@ button {
 
 .section-one-plus {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img-name.jpg);
+    url(../images/desktop/people-office@1x.png);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section-one-plus {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/desktop/people-office@2x.png);
+  }
 }
 
 .section-two-icon {
@@ -1244,12 +1251,22 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
 }
-/*  
+
 @media (min-width: 768px) {
-  .container-plus {
-    display: none;
+  /* .container-plus {
+    display: none; }*/
+
+  .section-one-plus {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/tablet/Dark-bg@1x.png);
   }
-}*/
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .section-one-plus {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/tablet/Dark-bg@2x.png);
+    }
+  }
+}
 
 /* mobila!!!! */
 @media (max-width: 767px) {
