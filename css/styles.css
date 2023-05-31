@@ -652,7 +652,7 @@ button {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .container {
     width: 1158px;
     margin: 0 auto;
