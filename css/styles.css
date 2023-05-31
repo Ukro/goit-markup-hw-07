@@ -626,16 +626,6 @@ button {
   }
 }
 
-@media (max-width: 1439px) {
-  .section-thre-flex {
-    display: none;
-  }
-
-  .section-two-icon {
-    display: none;
-  }
-}
-
 @media (min-width: 768px) {
   /* .container-plus {
     display: none; }*/
@@ -1174,6 +1164,15 @@ button {
   }
 }
 
+@media (max-width: 1439px) {
+  .section-thre-flex {
+    display: none;
+  }
+
+  .section-two-icon {
+    display: none;
+  }
+}
 /*  */
 /*  */
 /*  */
