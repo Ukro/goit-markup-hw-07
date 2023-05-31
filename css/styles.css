@@ -508,13 +508,6 @@ button {
   /* .container {
     width: 428px;
   } */
-  .section-thre-flex {
-    display: none;
-  }
-
-  .section-two-icon {
-    display: none;
-  }
 
   .ul-header,
   .addr-one {
@@ -630,6 +623,16 @@ button {
 
   .customers-ul-li {
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 1439px) {
+  .section-thre-flex {
+    display: none;
+  }
+
+  .section-two-icon {
+    display: none;
   }
 }
 
