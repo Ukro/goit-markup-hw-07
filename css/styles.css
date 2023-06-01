@@ -1164,7 +1164,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     }
   }
 }
-@media (max-width: 1439px) {
+@media (max-width: 1157px) {
   .section-thre-flex {
     display: none;
   }
