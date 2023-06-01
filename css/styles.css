@@ -1015,6 +1015,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     margin-right: auto;
   }
 
+  .customers-ul {
+    max-width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .addr-flex {
     /* flex-wrap: wrap; */
     flex-direction: column;
