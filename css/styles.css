@@ -867,12 +867,18 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   fill: var(--ff-color);
   border: none;
   border-color: var(--hover-color);
-} /* mobila!!!! */
-@media (max-width: 767px) {
-  .container {
-    width: 428px;
-  }
+}
 
+.container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* mobila!!!! */
+@media (max-width: 767px) {
   .ul-header,
   .addr-one {
     display: none;
@@ -886,9 +892,6 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/mobile/img-name@2x.png);
     }
-  }
-  .container {
-    width: auto;
   }
 
   .section-two-ul-flex {
@@ -913,7 +916,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   .customers-ul-li {
-    width: auto;
+    /* ширина елемента */
+    /* width: calc((100% - 120px) / 6); !!!*/
+    width: calc((100% - 16px) / 2);
+    /* висота елемента */
+    height: 88px;
   }
 
   .customers-ul {
@@ -979,12 +986,6 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     margin-bottom: 16px;
   }
 
-  .container {
-    /* width: 428px; */
-    margin: 0px auto;
-    padding: 0px 16px;
-  }
-
   .customers-ul-li {
     align-items: flex-start;
   }
@@ -993,6 +994,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 @media (min-width: 768px) {
   /* .container-plus {
     display: none; }*/
+  .footer-form-input {
+    margin-bottom: 0px;
+  }
 
   .section-one-plus {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1006,9 +1010,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   .container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    max-width: 768px;
+    /* margin: 0 auto; */
+    /* padding: 0 15px; */
   }
 
   .webstudio-one {
@@ -1107,6 +1111,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   /* for desktop */
   @media (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+    }
     .section-four-li-plus {
       width: calc((100% - 72px) / 4);
     }
