@@ -998,11 +998,33 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     margin-bottom: 0px;
   }
 
-  .section-four-ul-flex {
+  .section-two-ul-flex {
     flex-wrap: wrap;
   }
 
+  .section-two-li-flex {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .section-four-ul-flex {
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .addr-flex {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 12px;
+  }
+
   .customers-ul {
+    flex-wrap: wrap;
+  }
+
+  .footer-div-flex {
     flex-wrap: wrap;
   }
 
