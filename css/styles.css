@@ -997,7 +997,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .footer-form-input {
     margin-bottom: 0px;
   }
-
+  .customers-ul-li {
+    width: calc((100% - 24px) / 3);
+  }
   .section-one-plus {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/tablet/Dark-bg@1x.png);
@@ -1077,6 +1079,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .section-four-ul-flex {
     gap: 24px;
+  }
+
+  .section-four-li-plus {
+    width: calc((100% - 24px) / 2);
   }
 
   .footer-flex {
