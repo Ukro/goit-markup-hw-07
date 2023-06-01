@@ -913,6 +913,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     /* flex-wrap: wrap; */
     flex-direction: column;
     align-items: center;
+    gap: 72px;
   }
 
   .customers-ul-li {
