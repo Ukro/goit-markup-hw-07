@@ -869,9 +869,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   border-color: var(--hover-color);
 } /* mobila!!!! */
 @media (max-width: 767px) {
-  /* .container {
+  .container {
     width: 428px;
-  } */
+  }
 
   .ul-header,
   .addr-one {
