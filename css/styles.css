@@ -1106,7 +1106,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   /* for desktop */
-  @media (min-width: 1440px) {
+  @media (min-width: 1158px) {
     .section-four-li-plus {
       width: calc((100% - 72px) / 4);
     }
