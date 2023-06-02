@@ -1110,11 +1110,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     }
   }
 
-  .container {
-    max-width: 768px;
-    /* margin: 0 auto; */
-    /* padding: 0 15px; */
-  }
+  
 
   .webstudio-one {
     margin-right: 76px;
@@ -1208,6 +1204,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   /* for desktop */
   @media (min-width: 1158px) {
+    .container {
+ /*   max-width: 768px; */
+    /* margin: 0 auto; */
+    /* padding: 0 15px; */
+  }
     .container {
       max-width: 1158px;
     }
