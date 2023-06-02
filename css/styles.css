@@ -912,13 +912,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
 
 
-  .strategy-one {
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-  }
+
 
   .strategy-pargraf-shrift {
     font-style: normal;
@@ -1261,6 +1255,14 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 }
 @media (max-width: 1157px) {
+  
+    .strategy-one {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
   .section-thre-flex {
     display: none;
   }
