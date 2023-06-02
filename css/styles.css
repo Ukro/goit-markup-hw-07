@@ -894,7 +894,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
         url(../images/mobile/img-name@2x.jpg);
     }
   }
-
+.section-two-flex
+  {
+  padding: 96px 0;
+  }
+  
   .section-two-ul-flex {
     flex-wrap: wrap;
   }
