@@ -220,6 +220,7 @@ body {
 
 .div-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .nav-header {
