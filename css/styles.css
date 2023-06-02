@@ -878,6 +878,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   margin-right: auto;
 }
 
+.section-four-h-plus {
+    margin-bottom: 72px;
+}
+
 /* mobila!!!! */
 @media (max-width: 767px) {
   .ul-header,
@@ -1151,9 +1155,7 @@ letter-spacing: 0.02em;
     padding: 120px 0;
   }
 
-  .section-four-h-plus {
-    margin-bottom: 72px;
-  }
+ 
 
   .section-four-ul-flex {
     gap: 24px;
