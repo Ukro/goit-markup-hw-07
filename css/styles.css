@@ -1267,7 +1267,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
 
- 
+  .section-four-plus, .customers, .footer-div-flex
+  {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  }
 }
 /*  */
 /*  */
