@@ -1166,9 +1166,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     width: calc((100% - 24px) / 2);
   }
 
-  .footer-flex {
-    padding: 100px 0;
-  }
+  
 
   .footer-a-flex {
     margin-bottom: 16px;
@@ -1208,7 +1206,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .section-thre-li-flex {
       width: calc((100% - 48px) / 3);
     }
-
+.footer-flex {
+    padding: 100px 0;
+  }
     .section-two-li-flex {
       width: calc((100% - 72px) / 4);
     }
