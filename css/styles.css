@@ -1029,6 +1029,14 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .customers-ul {
       flex-wrap: wrap;
     }
+    .footer-div-flex {
+      flex-wrap: wrap;
+      gap: 24px;
+      align-items: center;
+      max-width: 552px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   .customers-ul-li {
@@ -1049,15 +1057,6 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     max-width: 768px;
     /* margin: 0 auto; */
     /* padding: 0 15px; */
-  }
-
-  .footer-div-flex {
-    flex-wrap: wrap;
-    gap: 24px;
-    align-items: center;
-    max-width: 552px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .webstudio-one {
