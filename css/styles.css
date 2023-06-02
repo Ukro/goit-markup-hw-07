@@ -908,7 +908,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   
   .real-modal {
    
-    width: 392px;
+    max-width: 392px;
   }
   .ul-header,
   .addr-one {
