@@ -887,6 +887,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .section-four-plus {
     padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .strategy-one
