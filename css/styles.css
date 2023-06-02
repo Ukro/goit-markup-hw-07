@@ -884,6 +884,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .addr-one {
     display: none;
   }
+
+  .section-four-plus {
+    padding-top: 96px;
+  }
+
   .section-one-plus {
     padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
