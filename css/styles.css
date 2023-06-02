@@ -910,8 +910,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
 
-
-
+.strategy-one {
+    
+    text-align: center;
+  }
 
 
   .strategy-pargraf-shrift {
@@ -1259,7 +1261,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .strategy-one {
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
+  
     letter-spacing: 0.02em;
     text-transform: capitalize;
   }
