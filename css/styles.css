@@ -901,6 +901,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   
   .section-two-ul-flex {
     flex-wrap: wrap;
+    gap 72px;
   }
   .section-two-li-flex {
     width: auto;
