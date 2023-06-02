@@ -1262,7 +1262,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
 
-  .customers {
+  .container {
     padding-top: 96px;
     padding-bottom: 96px;
   }
