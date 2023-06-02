@@ -993,6 +993,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 }
 
 @media (min-width: 768px) {
+  .mobile-menu-open {
+    display: none;
+  }
+
   /* .container-plus {
     display: none; }*/
   .footer-form-input {
