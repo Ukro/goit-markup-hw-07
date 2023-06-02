@@ -881,6 +881,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     margin-bottom: 72px;
 }
 
+ .customers-header {
+      font-size: 36px;
+      margin-bottom: 72px;
+    }
+
 /* mobila!!!! */
 @media (max-width: 767px) {
   .ul-header,
@@ -1226,10 +1231,7 @@ letter-spacing: 0.02em;
       padding-bottom: 120px;
     }
 
-    .customers-header {
-      font-size: 36px;
-      margin-bottom: 72px;
-    }
+   
 
     .customers-ul {
       gap: 24px;
