@@ -899,6 +899,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       margin-bottom: 16px;
     }
 
+.strategy-pargraf-shrift-name {
+      margin-bottom: 8px;
+    }
+
 /* mobila!!!! */
 @media (max-width: 767px) {
   .ul-header,
@@ -1251,9 +1255,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       margin-right: 80px;
     }
 
-    .strategy-pargraf-shrift-name {
-      margin-bottom: 8px;
-    }
+    
   }
 }
 @media (max-width: 1157px) {
