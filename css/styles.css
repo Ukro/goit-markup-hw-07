@@ -894,10 +894,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
 
-  .section-four-plus {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
+
 
   .strategy-one {
     font-size: 36px;
