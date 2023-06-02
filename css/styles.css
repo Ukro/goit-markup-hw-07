@@ -885,12 +885,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
   .section-one-plus {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/mobile/img-name@1x.png);
+      url(../images/mobile/img-name@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-one-plus {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/mobile/img-name@2x.png);
+        url(../images/mobile/img-name@2x.jpg);
     }
   }
 
@@ -1048,12 +1048,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
   .section-one-plus {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/tablet/Dark-bg@1x.png);
+      url(../images/tablet/Dark-bg@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-one-plus {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/tablet/Dark-bg@2x.png);
+        url(../images/tablet/Dark-bg@2x.jpg);
     }
   }
 
@@ -1147,7 +1147,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .section-one-plus {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/desktop/people-office@1x.png);
+      url(../images/desktop/people-office@1x.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1157,7 +1157,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .section-one-plus {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(../images/desktop/people-office@2x.png);
+        url(../images/desktop/people-office@2x.jpg);
     }
   }
 
