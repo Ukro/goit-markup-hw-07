@@ -887,6 +887,18 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   margin-bottom: 72px;
 }
 
+  .footer-a-flex {
+    margin-bottom: 16px;
+  }
+
+ .footer-form-input {
+    margin-bottom: 16px;
+  }
+
+ .footer-p-social-media {
+      margin-bottom: 16px;
+    }
+
 /* mobila!!!! */
 @media (max-width: 767px) {
   .ul-header,
@@ -1019,9 +1031,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     justify-content: center;
   }
 
-  .footer-form-input {
-    margin-bottom: 16px;
-  }
+ 
 
   .customers-ul-li {
     align-items: flex-start;
@@ -1165,9 +1175,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   
 
-  .footer-a-flex {
-    margin-bottom: 16px;
-  }
+
 
   .footer-p-flex {
     /*  встановлює максимально допустиму ширину елемента */
@@ -1229,9 +1237,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       gap: 24px;
     }
 
-    .footer-p-social-media {
-      margin-bottom: 16px;
-    }
+   
 
     .social-networks-plus {
       gap: 16px;
