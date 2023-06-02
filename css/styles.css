@@ -1121,7 +1121,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
 
   .addr-flex {
-    gap: 40px;
+    /* gap: 40px; */
   }
 
   .section-one-plus {
