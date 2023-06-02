@@ -885,6 +885,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: none;
   }
   .section-one-plus {
+    padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/mobile/img-name@1x.jpg);
   }
@@ -894,9 +895,14 @@ form input[id='user-name']:focus + .modal-form-input-icon {
         url(../images/mobile/img-name@2x.jpg);
     }
   }
-
+.section-two-flex
+  {
+  padding: 96px 0;
+  }
+  
   .section-two-ul-flex {
     flex-wrap: wrap;
+    gap 72px;
   }
   .section-two-li-flex {
     width: auto;
