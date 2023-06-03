@@ -1167,11 +1167,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     }
 
     .section-two-flex {
-      padding: 120px 0;
+      padding: 96px 0;
     }
 
     .section-two-ul-flex {
       gap: 24px;
+      row-gap: 72px;
     }
 
     .strategy-two {
