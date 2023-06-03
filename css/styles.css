@@ -1232,6 +1232,37 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     margin-right: auto;
   }
 
+  .section-two-flex {
+    padding: 120px 0;
+  }
+
+  .section-two-ul-flex {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-thre-ul-flex {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-thre-plus {
+    margin-bottom: 72px;
+  }
+
+  .section-thre-flex {
+    padding-bottom: 120px;
+  }
+
+  .section-four-plus {
+    padding: 120px 0;
+  }
+
+  .section-four-ul-flex {
+    display: flex;
+    gap: 24px;
+  }
+
   .section-four-li-plus {
     width: calc((100% - 72px) / 4);
   }
