@@ -1099,6 +1099,9 @@ line-height: 14px;
       margin-right: auto;
       align-items: flex-start;
     }
+    .div-header {
+    
+    align-items: center;
   }
 
   .customers-ul-li {
