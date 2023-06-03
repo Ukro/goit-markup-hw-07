@@ -1116,6 +1116,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
     .customers-ul {
       flex-wrap: wrap;
+      row-gap: 72px;
     }
     .footer-div-flex {
       flex-wrap: wrap;
