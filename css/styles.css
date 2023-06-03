@@ -1090,6 +1090,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .strategy-one {
       font-weight: 700;
     }
+    .contacts {
+      font-size: 12px;
+      line-height: 1.17;
+    }
 
     .section-one-plus {
       padding: 112px 0;
