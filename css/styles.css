@@ -1087,9 +1087,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       font-size: 12px;
       line-height: 14px;
     }
-    .strategy-one {
-      font-weight: 700;
-    }
+
     .contacts {
       font-size: 12px;
       line-height: 1.17;
@@ -1336,6 +1334,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
   .section-thre-flex {
     display: none;
+  }
+
+  .strategy-one {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .section-two-icon {
