@@ -872,8 +872,8 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
 .container {
   max-width: 428px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
