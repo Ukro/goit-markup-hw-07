@@ -145,7 +145,7 @@ body {
   /* Розмір відступів буде автоматично розрахований браузером */
   margin-left: auto;
   margin-right: auto;
-  margin-top: 64px;
+  margin-top: 48px;
 }
 .button-sectione-one:hover,
 .button-sectione-one:focus {
