@@ -96,7 +96,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color);
 
-  padding: 24px 0 24px 0;
+ 
   display: block;
 }
 
@@ -1198,6 +1198,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .container {
       max-width: 1158px;
     }
+    
+    .contacts {
+  padding: 24px 0 24px 0;
+    }
+    
     .section-four-li-plus {
       width: calc((100% - 72px) / 4);
     }
