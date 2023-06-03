@@ -1058,6 +1058,8 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       max-width: 768px;
       /* margin: 0 auto; */
       /* padding: 0 15px; */
+      
+    padding-top: 16px;
     }
 .contacts
     {
