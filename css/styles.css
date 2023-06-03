@@ -1195,6 +1195,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
     .section-four-ul-flex {
       gap: 24px;
+      row-gap: 64px;
     }
 
     .section-four-li-plus {
