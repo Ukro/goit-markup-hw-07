@@ -1121,9 +1121,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     padding: 24px 0;
   }
 
-  .addr-flex {
-    /* gap: 40px; */
-  }
+  
 
   .section-one-plus {
     padding: 188px 0;
@@ -1244,6 +1242,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .footer-div-logo-two {
       margin-right: 80px;
     }
+    .addr-flex {
+     gap: 40px; 
+  }
   }
 }
 @media (max-width: 1157px) {
