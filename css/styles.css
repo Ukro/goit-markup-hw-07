@@ -1054,8 +1054,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   }
   .mobile-menu-container {
     position: relative;
-    padding: 80px;
-    padding-left: 24px;
+    padding: 80px 35px 40px 40px;
+    /* padding-left: 24px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 284px;
   }
 
   .mobile-menu-close-btn {
@@ -1067,7 +1070,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     justify-content: center;
     width: 24px;
     height: 24px;
-    border: 1px solid #555555;
+    border: 1px solid #e7e9fc;
     border-radius: 50%;
     background-color: transparent;
     padding: 0;
@@ -1097,10 +1100,35 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     visibility: hidden;
     pointer-events: none;
   }
+
+  .studio-one-mobile,
+  .mobile-addr {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .mobile-contacts {
+    color: #404bbf;
+  }
+
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+  }
+
+  .ul-header-mobile {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .addr-flex-mobile {
+    display: flex;
+    flex-direction: column;
   }
 }
 
