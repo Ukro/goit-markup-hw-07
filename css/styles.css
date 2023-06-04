@@ -1051,6 +1051,16 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .customers-ul-li {
     align-items: flex-start;
   }
+
+  .mobile-menu-open-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .div-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 /* for tablet */
