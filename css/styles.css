@@ -1080,12 +1080,17 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   /* плашет до десктопа */
   @media (max-width: 1157px) {
     .container {
-      max-width: 768px;
+      max-width: 584px;
+
       /* margin: 0 auto; */
       /* padding: 0 15px; */
 
       font-size: 12px;
       line-height: 14px;
+    }
+    .div-header,
+    .sect-cont-2 {
+      max-width: 768px;
     }
 
     .contacts {
@@ -1096,11 +1101,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .section-one-plus {
       padding: 112px 0;
     }
-    .customers-ul {
-      max-width: 552px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    /* .customers-ul { */
+    /* max-width: 552px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* } */
+
     .addr-flex {
       /* flex-wrap: wrap; */
       flex-direction: column;
@@ -1116,13 +1122,15 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
     .customers-ul {
       flex-wrap: wrap;
+      gap: 24px;
       row-gap: 72px;
     }
     .footer-div-flex {
       flex-wrap: wrap;
       gap: 24px;
+      row-gap: 72px;
       align-items: center;
-      max-width: 552px;
+      max-width: 584px;
       margin-left: auto;
       margin-right: auto;
       align-items: flex-start;
@@ -1350,7 +1358,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .section-four-plus,
   .customers,
-  .footer-div-flex {
+  .footer-flex {
     padding-top: 96px;
     padding-bottom: 96px;
   }
