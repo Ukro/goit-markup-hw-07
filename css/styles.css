@@ -909,15 +909,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     max-width: fit-content;
     min-width: 408px;
   }
-  .footer-form-input {
-    max-width: 398px;
-  }
+
   @media (max-width: 427px) {
     .real-modal {
       min-width: 320px;
-    }
-    .footer-form-input {
-      max-width: 310px;
     }
   }
 
@@ -1061,6 +1056,14 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .div-header {
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .footer-div-logo-three {
+    width: 100%;
+  }
+
+  .footer-form-input {
+    width: 100%;
   }
 }
 
