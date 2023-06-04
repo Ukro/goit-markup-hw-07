@@ -1065,8 +1065,8 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
     border: 1px solid #555555;
     border: 50%;
     background-color: transparent;
