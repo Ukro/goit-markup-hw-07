@@ -1048,10 +1048,27 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     align-items: flex-start;
   }
 
-  .mobile-menu-open-btn,
-  .mobile-menu-close-btn {
+  .mobile-menu-open-btn {
     border: none;
     background-color: transparent;
+  }
+  .mobile-menu-container {
+    position: relative;
+  }
+
+  .mobile-menu-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #555555;
+    border: 50%;
+    background-color: transparent;
+    padding: 0;
   }
 
   .div-header {
@@ -1065,6 +1082,15 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .footer-form-input {
     width: 100%;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--ff-color);
   }
 }
 
