@@ -1142,6 +1142,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .addr-flex-mobile {
     display: flex;
     flex-direction: column;
+    gap: 40px;
   }
 }
 
