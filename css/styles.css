@@ -905,7 +905,15 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 /* mobila!!!! */
 @media (max-width: 767px) {
   .real-modal {
-    max-width: 392px;
+    /* max-width: 392px; */
+    max-width: fit-content;
+    min-width: 408px;
+  }
+
+  @media (max-width: 427px) {
+    .real-modal {
+      min-width: 320px;
+    }
   }
   .ul-header,
   .addr-one {
