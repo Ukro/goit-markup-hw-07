@@ -1114,6 +1114,19 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     color: #404bbf;
   }
 
+  .mobile-addr {
+    color: #4d5ae5;
+  }
+
+  .mobile-email {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
   .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
