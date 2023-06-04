@@ -921,6 +921,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     }
   }
 
+  .customers-ul {
+    row-gap: 72px;
+  }
   .footer-p-flex {
     max-width: 268px;
   }
