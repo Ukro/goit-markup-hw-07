@@ -890,9 +890,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   margin-bottom: 16px;
 }
 
-.footer-form-input {
-  margin-bottom: 16px;
-}
+/* .footer-form-input { */
+/* margin-bottom: 16px; */
+/* } */
 
 .footer-p-social-media {
   margin-bottom: 16px;
@@ -909,11 +909,20 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     max-width: fit-content;
     min-width: 408px;
   }
-
+  .footer-form-input {
+    max-width: 398px;
+  }
   @media (max-width: 427px) {
     .real-modal {
       min-width: 320px;
     }
+    .footer-form-input {
+      max-width: 310px;
+    }
+  }
+
+  .footer-p-flex {
+    max-width: 268px;
   }
   .ul-header,
   .addr-one {
@@ -1015,6 +1024,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
   .form-subscribe-footer-label {
     margin-right: 0px;
+    margin-bottom: 16px;
   }
 
   .footer-div-logo {
