@@ -1067,6 +1067,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     height: 100%;
   }
 
+  .mobile-footer-plus {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
   .mobile-menu-close-btn {
     position: absolute;
     top: 24px;
