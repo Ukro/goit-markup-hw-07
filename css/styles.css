@@ -914,12 +914,6 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     min-width: 408px;
   }
 
-  @media (max-width: 427px) {
-    .real-modal {
-      min-width: 320px;
-    }
-  }
-
   .customers-ul {
     row-gap: 72px;
   }
@@ -1121,6 +1115,17 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #2e2f42;
+  }
+
+  @media (max-width: 427px) {
+    .real-modal {
+      min-width: 320px;
+    }
+
+    .studio-one-mobile,
+    .mobile-addr {
+      font-size: 20px;
+    }
   }
   .mobile-contacts {
     color: #404bbf;
