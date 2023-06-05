@@ -904,12 +904,10 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
 /* mobila!!!! */
 @media (max-width: 767px) {
-  
   .social-networks {
-   
     justify-content: space-between;
   }
-    
+
   .real-modal {
     /* max-width: 392px; */
     max-width: fit-content;
@@ -1064,7 +1062,9 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     /* padding-left: 24px; */
     display: flex;
     flex-direction: column;
-/*     row-gap: 284px; */
+    /*     row-gap: 284px; */
+    justify-content: space-between;
+    height: 100%;
   }
 
   .mobile-menu-close-btn {
