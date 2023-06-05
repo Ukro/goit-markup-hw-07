@@ -904,6 +904,12 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
 /* mobila!!!! */
 @media (max-width: 767px) {
+  
+  .social-networks {
+   
+    justify-content: space-between;
+  }
+    
   .real-modal {
     /* max-width: 392px; */
     max-width: fit-content;
