@@ -1058,7 +1058,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     /* padding-left: 24px; */
     display: flex;
     flex-direction: column;
-    row-gap: 284px;
+/*     row-gap: 284px; */
   }
 
   .mobile-menu-close-btn {
