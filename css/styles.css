@@ -904,7 +904,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
 
 /* mobila!!!! */
 @media (max-width: 767px) {
-  .social-networks {
+  .social-networks-modal-mobile {
     justify-content: space-between;
   }
 
@@ -931,7 +931,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     /* or 150% */
 
     letter-spacing: 0.02em;
