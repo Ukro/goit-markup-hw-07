@@ -917,9 +917,7 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .customers-ul {
     row-gap: 72px;
   }
-  .footer-p-flex {
-    max-width: 268px;
-  }
+
   .ul-header,
   .addr-one {
     display: none;
@@ -1125,9 +1123,21 @@ form input[id='user-name']:focus + .modal-form-input-icon {
       min-width: 320px;
     }
 
-    .studio-one-mobile,
+    .privacy-policy {
+      margin-left: 27px;
+    }
+    /* .studio-one-mobile, 
     .mobile-addr {
       font-size: 20px;
+    }*/
+
+    /* .mobile-menu-container { 
+      padding-left: 0px;
+      padding-right: 0px;
+    }*/
+
+    .footer-p-flex {
+      max-width: 268px;
     }
   }
   .mobile-contacts {
@@ -1172,7 +1182,11 @@ form input[id='user-name']:focus + .modal-form-input-icon {
   .mobile-menu {
     display: none;
   }
-
+  .footer-p-flex {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
   .real-modal {
     width: 408px;
   }
@@ -1232,6 +1246,13 @@ form input[id='user-name']:focus + .modal-form-input-icon {
     .contacts {
       font-size: 12px;
       line-height: 1.17;
+    }
+
+    .button-sectione-one {
+      margin-top: 36px;
+    }
+    .strategy-pargraf-shrift {
+      font-weight: 500;
     }
 
     .section-one-plus {
